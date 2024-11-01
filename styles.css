@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(135deg, #8BC6EC 30%, #9599E2 60%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box{
+    width:45%;
+    height:80%;
+    background-color:white;
+    border-radius:50px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    padding:3%;
+}
+
+#shoe{
+    width:100%;
+  /*  height:auto;*/
+    border-radius:35px;
+    height:auto;
+}
+
+#title{
+    font-size:35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#price{
+    font-size:50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:blue;
+    display:flex;
+    justify-content:space-between;
+}
+
+.text{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:5%;
+}
+
+.cartImg{
+    width:60px;
+    height:60px;
+}
